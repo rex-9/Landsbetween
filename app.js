@@ -17,29 +17,29 @@ menuX.addEventListener('click', toggleHamburger);
 
 // Dynamic
 const speakers = [{
-    name: 'Radagon of the Golden Order',
-    title: 'King of the Lands Between',
-    bio: ' the "other half" of Queen Marika, is a tall, fractured god wielding the hammer that shattered the Elden Ring, and is found in the Elden Throne.',
-    img: 'assets/radagon.png',
-  }, 
-  {
-    name: 'Brother Corhyn',
-    title: 'Prophet of the Roundtable Hold',
-    bio: 'A holy practitioner who was inspired by the Royal Goldmask. He will teach you practical faith-based Incantations',
-    img: 'assets/corhyn.png',
-  },
-  {
-    name: 'Renella of the Full Moon',
-    title: 'Founder of Raya Lucaria Academy',
-    bio: 'Rennala is the last Carian Queen, imprisoned in the Grand Library. Still distraught over Radagon’s departure, she obsesses over rebirth, and her scholars will protect her at all costs. But beware, should you witness the true power of the Full Moon Queen.',
-    img: 'assets/renella.png',
-  },
-  {
-    name: 'Ranni the witch',
-    title: 'Pioneer in Dark Moon Magic',
-    bio: 'I am the witch Ranni. I stole Death long ago, and search now for the dark path.',
-    img: 'assets/ranni.jpg',
-  },
+  name: 'Radagon of the Golden Order',
+  title: 'King of the Lands Between',
+  bio: ' the "other half" of Queen Marika, is a tall, fractured god wielding the hammer that shattered the Elden Ring, and is found in the Elden Throne.',
+  img: 'assets/radagon.png',
+},
+{
+  name: 'Brother Corhyn',
+  title: 'Prophet of the Roundtable Hold',
+  bio: 'A holy practitioner who was inspired by the Royal Goldmask. He will teach you practical faith-based Incantations',
+  img: 'assets/corhyn.png',
+},
+{
+  name: 'Renella of the Full Moon',
+  title: 'Founder of Raya Lucaria Academy',
+  bio: 'Rennala is the last Carian Queen, imprisoned in the Grand Library. Still distraught over Radagon’s departure, she obsesses over rebirth, and her scholars will protect her at all costs. But beware, should you witness the true power of the Full Moon Queen.',
+  img: 'assets/renella.png',
+},
+{
+  name: 'Ranni the witch',
+  title: 'Pioneer in Dark Moon Magic',
+  bio: 'I am the witch Ranni. I stole Death long ago, and search now for the dark path.',
+  img: 'assets/ranni.jpg',
+},
 ];
 
 const container = document.getElementById('speakers-container');
