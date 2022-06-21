@@ -51,12 +51,11 @@ body {
   text-align: center;
 }
 
-
 .divider {
   border-top: 3px solid #ec5242;
   border-radius: 5px;
   width: 50px;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0 20px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -69,11 +68,11 @@ body {
     top: 0;
     background-color: white;
     width: 100%;
-    box-shadow: 0px 0px 50px gray;
+    box-shadow: 0 0 50px gray;
   }
 
   .home {
-    padding: 100px 0px 100px 195px;
+    padding: 100px 0 100px 195px;
   }
 
   .home-text-1 {
@@ -86,7 +85,7 @@ body {
     padding: 25px;
     border: 3px solid white;
     background-color: #f7f7f7;
-    color: #555555;
+    color: #555;
     width: 600px;
   }
 
@@ -146,7 +145,7 @@ body {
     padding: 25px;
     border: 3px solid white;
     background-color: #f7f7f7;
-    color: #555555;
+    color: #555;
   }
 
   .card-container {
@@ -182,19 +181,6 @@ body {
   }
 }
 
-.desktop-nav h1 a {
-  color: black;
-}
-
-.desktop-nav ul li a {
-  color: #999999;
-  font-size: 15px;
-}
-
-.desktop-nav ul li a:hover {
-  color: #00b1fd;
-}
-
 .home-text-2 {
   font-size: 55px;
   font-weight: 800;
@@ -206,14 +192,14 @@ body {
   margin-top: 25px;
   font-size: 35px;
   font-weight: 800;
-  color: #555555;
+  color: #555;
 }
 
 .home-text-5 {
   margin-top: 25px;
   font-size: 25px;
   font-weight: 400;
-  color: #555555;
+  color: #555;
 }
 
 .program {
@@ -273,16 +259,16 @@ body {
 .teachers .name {
   font-size: 20px;
   font-weight: bold;
-  margin: 0px 0px 8px 20px;
+  margin: 0 0 8px 20px;
 }
 
 .teachers .title {
   font-style: italic;
-  margin: 0px 0px 8px 20px;
+  margin: 0 0 8px 20px;
 }
 
 .teachers .bio {
-  margin: 0px 0px 8px 20px;
+  margin: 0 0 8px 20px;
 }
 
 .about {
@@ -292,7 +278,7 @@ body {
 .about header {
   font-weight: bold;
   font-size: 55px;
-  margin: 80px 0px 30px 0px;
+  margin: 80px 0 30px 0;
 }
 
 .about p {
@@ -302,6 +288,10 @@ body {
 }
 
 /* menu */
+
+.desktop-nav h1 a {
+  color: black;
+}
 
 .topNav {
   position: fixed;
@@ -387,9 +377,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.desktop-nav ul li a {
+  color: #999;
+  font-size: 15px;
+}
+
 .sideNav ul li a:hover,
 .sideNav ul li a:focus {
   color: rgb(74, 176, 210);
+}
+
+.desktop-nav ul li a:hover {
+  color: #00b1fd;
 }
 
 /* menu-end */
