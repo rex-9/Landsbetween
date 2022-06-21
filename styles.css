@@ -19,6 +19,7 @@ p {
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #f8f8f8;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -72,6 +73,7 @@ body {
   }
 
   .home {
+    background-image: url('./assets/white.jpg');
     padding: 100px 0 100px 195px;
   }
 
@@ -114,7 +116,7 @@ body {
     width: 70%;
   }
 
-  .about main {
+  .about .main {
     padding: 50px;
     border: 2px solid gray;
     border-radius: 5px;
@@ -133,6 +135,7 @@ body {
   }
 
   .home {
+    background-image: url('./assets/white.jpg');
     padding: 100px 20px 100px 20px;
   }
 
@@ -168,7 +171,7 @@ body {
     width: 90%;
   }
 
-  .about main {
+  .about .main {
     padding: 10px;
     border: 2px solid gray;
     border-radius: 5px;
@@ -213,7 +216,7 @@ body {
 }
 
 .card {
-  height: 200px;
+  height: 260px;
   margin-bottom: 20px;
   width: 200px;
   background-color: hsla(0, 0%, 100%, 0.272);
@@ -291,6 +294,12 @@ body {
 
 .desktop-nav h1 a {
   color: black;
+}
+
+.desktop-nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
 }
 
 .topNav {
