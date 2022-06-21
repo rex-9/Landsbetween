@@ -47,10 +47,11 @@ const container = document.getElementById('speakers-container');
 for (let i = 0; i < speakers.length; i += 1) {
   const card = document.createElement('div');
   card.classList.add('flex', 'items-center', 'teacher-card');
+  card.style.cssText = 'height: 300px;';
 
   const image = document.createElement('img');
   image.src = speakers[i].img;
-  image.style.cssText = 'width: 200px;';
+  image.style.cssText = 'width: 150px;';
 
   const div = document.createElement('div');
 
