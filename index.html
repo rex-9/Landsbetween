@@ -10,16 +10,229 @@
     <script src="app.js" defer></script>
 </head>
 
-<body class="center" style="background-color: #f8f8f8;">
-    <header style="background-color: white;">
-        <nav style="display: flex; align-items: center;">
-            <h1>Meditation Summit</h1>
-            <ul style="display: flex;">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+<body style="background-color: #f8f8f8;">
+    <!-- mobile nav -->
+    <header class="mobile">
+        <nav class="topNav">
+            <button class="ham">
+                <img src="./assets/ham.svg" alt="menu">
+            </button>
+        </nav>
+        <nav class="sideNav">
+            <button class="menuX">
+                <img src="./assets/x.svg" alt="cancel">
+            </button>
+            <ul>
+                <li><a class="menuLink" href="#home">Home</a></li>
+                <li><a class="menuLink" href="#program">Program</a></li>
+                <li><a class="menuLink" href="#teachers">Teachers</a></li>
+                <li><a class="menuLink" href="#partners">Partners</a></li>
+                <li><a class="menuLink" href="#about">About</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- desktop-nav -->
+    <nav class="flex items-center justify-around desktop desktop-nav">
+        <h1><a href="#home">Meditation Summit</a></h1>
+        <ul style="display: flex; justify-content: space-around; width: 500px;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#teachers">Teachers</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="home" style="background-image: url('./assets/white.jpg');">
+        <div class="primary-color home-text-1">Hello! Sharing World</div>
+        <div class="primary-color home-text-2">
+            CREATIVE COMMONS<br>GLOBAL SUMMIT<br>2015</div>
+        <div class="home-text-3">
+            A joyful celebration believing in the value of openess and sharing, creating a positive change with people
+            from over 80 countries is taking place in October, in Korea.</div>
+        <div class="home-text-4">2015.10.15(THU) ~ 16(FRI)
+        </div>
+        <div class="home-text-5">@ National Museum of Korea,
+            Art Center Nabi and more</div>
+    </section>
+    <section id="program" class="flex justify-center text-center program">
+        <div>
+            <header>
+                <div>
+                    Main Program
+                </div>
+                <div class="flex justify-center">
+                    <div class="divider"></div>
+                </div>
+            </header>
+            <div class="flex justify-between items-center card-container">
+                <div class="card">
+                    <div class="flex justify-center">
+                        <img class="icon" src="assets/lecture.svg" alt="">
+                    </div>
+                    <div>
+                        <div class="primary-color title">
+                            Lecture
+                        </div>
+                        <div class="content">Listen to the speakers about the various countries about the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flex justify-center">
+                        <img class="icon" src="assets/lecture.svg" alt="">
+                    </div>
+                    <div>
+                        <div class="primary-color title">
+                            Lecture
+                        </div>
+                        <div class="content">Listen to the speakers about the various countries about the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flex justify-center">
+                        <img class="icon" src="assets/lecture.svg" alt="">
+                    </div>
+                    <div>
+                        <div class="primary-color title">
+                            Lecture
+                        </div>
+                        <div class="content">Listen to the speakers about the various countries about the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flex justify-center">
+                        <img class="icon" src="assets/lecture.svg" alt="">
+                    </div>
+                    <div>
+                        <div class="primary-color title">
+                            Lecture
+                        </div>
+                        <div class="content">Listen to the speakers about the various countries about the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+            </div>
+            <div class="underline">SEE THE WHOLE PROGRAM</div>
+        </div>
+    </section>
+    <section id="teachers" class="flex justify-center teachers">
+        <div class="bg">
+            <header class="flex justify-center">
+                <div>
+                    <div>
+                        Featured Teachers
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </header>
+            <div class="flex justify-center wrap">
+                <div class="flex items-center teacher-card">
+                    <img src="assets/profile.png" alt="">
+                    <div>
+                        <div class="name">Ashin
+                            Vimala</div>
+                        <div class="primary-color title">
+                            Founder of
+                            Moegok</div>
+                        <div class="bio">Listen to the speakers about the various
+                            countries about
+                            the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+                <div class="flex items-center teacher-card">
+                    <img src="assets/profile.png" alt="">
+                    <div>
+                        <div class="name">Ashin
+                            Vimala</div>
+                        <div class="primary-color title">
+                            Founder of
+                            Moegok</div>
+                        <div class="bio">Listen to the speakers about the various
+                            countries about
+                            the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+                <div class="flex items-center teacher-card">
+                    <img src="assets/profile.png" alt="">
+                    <div>
+                        <div class="name">Ashin
+                            Vimala</div>
+                        <div class="primary-color title">
+                            Founder of
+                            Moegok</div>
+                        <div class="bio">Listen to the speakers about the various
+                            countries about
+                            the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+                <div class="flex items-center teacher-card">
+                    <img src="assets/profile.png" alt="">
+                    <div>
+                        <div class="name">Ashin
+                            Vimala</div>
+                        <div class="primary-color title">
+                            Founder of
+                            Moegok</div>
+                        <div class="bio">Listen to the speakers about the various
+                            countries about
+                            the messages
+                            of sharing and opening</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="partners" class="flex justify-center partners">
+        <div>
+            <div class="text-center" style="color: #999999; font-size: 30px; margin-top: 30px;">
+                Partners
+            </div>
+            <div class="flex justify-center">
+                <div class="divider"></div>
+            </div>
+            <div class="flex justify-center wrap">
+                <img src="assets/mozilla.png" alt="mozilla">
+                <img src="assets/google.png" alt="google">
+                <img src="assets/naver.png" alt="naver">
+                <img src="assets/daumkakao.png" alt="daumkakao">
+                <img src="assets/airbnb.png" alt="airbnb">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="flex justify-center about">
+        <div class="bg">
+            <header class="primary-color text-center">CREATIVE COMMONS<br>GLOBAL SUMMIT 2015</header>
+            <main class="text-center">
+                The Global Summit
+                brings together
+                the community of experts, academics and activists who comprise the Creative Commons
+                affiliate network inadifferent country every two years.
+                This year, we hope to expand our invitation list including organizations and individuals who want to
+                work
+                with us on shared
+                projects that advance the cause of the Commons, free culture and open knowledge.
+                So if you're active and engaged in the worlds of open content and knowledge-free software
+                advocates, Wikipedians,Open
+                Knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and
+                activists-we hope
+                you'll
+                consider joining us this year to buildastronger, more vibrant commons together.</main>
+            <div class="text-center contact">
+                Please contact us per Email for any further questions about CC Global Summit 2015!
+                <p>
+                    ccsummit2015@cckorea.org
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
