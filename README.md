@@ -41,6 +41,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 [Microverse](https://bit.ly/MicroverseTN)
+[Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 This project is Creative Commons licensed.
