@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Call of the Lands Between</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
 </head>
@@ -27,12 +27,21 @@
                 <li><a class="menuLink" href="#program">Program</a></li>
                 <li><a class="menuLink" href="#teachers">Teachers</a></li>
                 <li><a class="menuLink" href="#partners">Partners</a></li>
-                <li><a class="menuLink" href="#about">About</a></li>
+                <li><a class="menuLink" href="/about.html">About</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- desktop-nav -->
+    <nav class="flex items-center justify-end black-nav desktop">
+        <ul class="flex items-center justify-around">
+            <li><img src="/assets/facebook.svg" alt="facebook"></li>
+            <li><img src="/assets/twitter.svg" alt="twitter"></li>
+            <li>English</li>
+            <li>My Page</li>
+            <li>Log out</li>
+        </ul>
+    </nav>
     <nav class="flex items-center justify-around desktop desktop-nav">
         <h1><a href="#home">Meditation Summit</a></h1>
         <ul>
@@ -40,27 +49,27 @@
             <li><a href="#program">Program</a></li>
             <li><a href="#teachers">Teachers</a></li>
             <li><a href="#partners">Partners</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="/about.html">About</a></li>
         </ul>
     </nav>
     <section id="home" class="home">
-        <div class="primary-color home-text-1">Champions! Welcome</div>
-        <div class="primary-color home-text-2">
-            THE GOLDEN ORDER<br>GLOBAL SUMMIT<br>2022</div>
-        <div class="home-text-3">
+        <h3 class="primary-color home-text-1">Champions! Welcome</h3>
+        <h1 class="primary-color home-text-2">
+            THE GOLDEN ORDER<br>GLOBAL SUMMIT<br>2022</h1>
+        <h4 class="home-text-3">
             A joyful celebration believing in the value of spells, incantations and ashes of war, creating a positive
-            change with champions from over 80 nations is taking place in October, in the Lands Between.</div>
-        <div class="home-text-4">2022.10.15(THU) ~ 16(FRI)
-        </div>
-        <div class="home-text-5">@ Academy of Raya Lucaria,
-            Caria Manor and more</div>
+            change with champions from over 80 nations is taking place in October, in the Lands Between.</h4>
+        <h2 class="home-text-4">2022.10.15(THU) ~ 16(FRI)
+        </h2>
+        <hx class="home-text-5">@ Academy of Raya Lucaria,
+            Caria Manor and more</hx>
     </section>
     <section id="program" class="flex justify-center text-center program">
         <div>
             <header>
-                <div>
+                <h3>
                     Main Program
-                </div>
+                </h3>
                 <div class="flex justify-center">
                     <div class="divider"></div>
                 </div>
@@ -70,7 +79,7 @@
                     <div class="flex justify-center">
                         <img class="icon" src="assets/lecture.svg" alt="">
                     </div>
-                    <div>
+                    <div class="card-info">
                         <div class="primary-color title">
                             Lecture
                         </div>
@@ -83,7 +92,7 @@
                     <div class="flex justify-center">
                         <img class="icon" src="assets/lecture.svg" alt="practical">
                     </div>
-                    <div>
+                    <div class="card-info">
                         <div class="primary-color title">
                             Practical
                         </div>
@@ -95,7 +104,7 @@
                     <div class="flex justify-center">
                         <img class="icon" src="assets/lecture.svg" alt="">
                     </div>
-                    <div>
+                    <div class="card-info">
                         <div class="primary-color title">
                             Radhn Festival
                         </div>
@@ -107,7 +116,7 @@
                     <div class="flex justify-center">
                         <img class="icon" src="assets/lecture.svg" alt="">
                     </div>
-                    <div>
+                    <div class="card-info">
                         <div class="primary-color title">
                             Reward
                         </div>
@@ -153,27 +162,13 @@
             </div>
         </div>
     </section>
-    <section id="about" class="flex justify-center about">
-        <div class="bg">
-            <header class="primary-color text-center">THE GOLDEN ORDER<br>GLOBAL SUMMIT 2022</header>
-            <div class="text-center main">
-                The Global Summit
-                brings together
-                the community of prophets, astrologers, samurais, prisoners, warriors and vegabonds who comprise the Golden Order
-                affiliate network in a different country every two years.
-                This year, we hope to expand our invitation list including organizations and individuals who want to
-                work with us on multiplayer summons that advance the cause of the Shattering, free culture and open knowledge.
-                So if you're active and engaged in the battles of open content and knowledge-free carian advocates, black flame monks, 
-                Open Knowledge, galleries, libraries, museums, archives, the orders and foundations, banished knights, and
-                activists-we hope you'll consider joining us this year to build a stronger, more vibrant commons together.</div>
-            <div class="text-center contact">
-                Please contact us per Email for any further questions about The Golden Order Global Summit 2022!
-                <p>
-                    ccsummit2015@cckorea.org
-                </p>
-            </div>
+    <footer class="flex justify-center">
+        <div class="flex items-center justify-center crd">
+            <h1>THE GOLDEN ORDER</h1>
+            <p>General Radhn, the mightiest demigod of the shattering awaits you.
+                Champions, prepare for battle. A celebration of war! THE RADHN FESTIVAL!!!</p>
         </div>
-    </section>
+    </footer>
 </body>
 
 </html>

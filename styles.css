@@ -44,6 +44,10 @@ body {
   justify-content: space-around;
 }
 
+.justify-end {
+  justify-content: end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -66,7 +70,7 @@ body {
 
   .desktop-nav {
     position: fixed;
-    top: 0;
+    top: 40px;
     background-color: white;
     width: 100%;
     box-shadow: 0 0 50px gray;
@@ -97,6 +101,22 @@ body {
     flex-wrap: wrap;
   }
 
+  .card {
+    height: 260px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: hsla(0, 0%, 100%, 0.272);
+    border-radius: 25px;
+    display: grid;
+    grid-template-rows: 40% 50%;
+    cursor: pointer;
+  }
+
+  .card .icon {
+    height: 50px;
+    padding: 20px;
+  }
+
   .teachers .bg {
     width: 90%;
   }
@@ -110,6 +130,10 @@ body {
   .partners {
     background-color: #414246;
     height: 220px;
+  }
+
+  .crd {
+    width: 80%;
   }
 
   .about .bg {
@@ -152,9 +176,32 @@ body {
   }
 
   .card-container {
-    width: 200px;
+    width: 350px;
     padding: 10px;
     flex-wrap: wrap;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    width: 350px;
+    margin-bottom: 20px;
+    background-color: hsla(0, 0%, 100%, 0.272);
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .card .icon {
+    height: 40px;
+    padding: 10px;
+  }
+
+  .card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .teacher-card {
@@ -182,6 +229,20 @@ body {
   .about .contact {
     line-height: 30px;
   }
+}
+
+.black-nav {
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.black-nav ul {
+  width: 400px;
+  margin-right: 100px;
+  color: white;
 }
 
 .home-text-2 {
@@ -215,19 +276,8 @@ body {
   color: white;
 }
 
-.card {
-  height: 260px;
-  margin-bottom: 20px;
-  width: 200px;
-  background-color: hsla(0, 0%, 100%, 0.272);
-  border-radius: 25px;
-  display: grid;
-  grid-template-rows: 40% 50%;
-}
-
-.card .icon {
-  height: 50px;
-  padding: 20px;
+.card:hover {
+  border: 3px solid white;
 }
 
 .card .title {
@@ -387,17 +437,17 @@ body {
 }
 
 .desktop-nav ul li a {
-  color: #999;
+  color: rgb(45, 42, 42);
   font-size: 15px;
 }
 
 .sideNav ul li a:hover,
 .sideNav ul li a:focus {
-  color: rgb(74, 176, 210);
+  color: #ec5242;
 }
 
 .desktop-nav ul li a:hover {
-  color: #00b1fd;
+  color: #ec5242;
 }
 
 /* menu-end */
