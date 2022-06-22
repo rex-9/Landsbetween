@@ -81,18 +81,7 @@ body {
     background-color: white;
     width: 100%;
     box-shadow: 0 0 50px gray;
-  }
-
-  .about-desktop-nav {
-    position: fixed;
-    top: 0;
-    background-color: white;
-    width: 100%;
-    box-shadow: 0 0 50px gray;
-  }
-
-  .about-desktop-nav a {
-    color: black;
+    z-index: 1;
   }
 
   .home {
@@ -267,11 +256,12 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .black-nav ul {
   width: 400px;
-  margin-left: 700px;
+  margin-right: 100px;
   color: white;
 }
 
@@ -357,7 +347,15 @@ body {
 }
 
 .about {
+  margin-top: 100px;
   background-image: url('./assets/white.jpg');
+}
+
+.about nav {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+  width: 150px;
 }
 
 .about header {
@@ -381,13 +379,14 @@ body {
 .desktop-nav ul {
   display: flex;
   justify-content: space-around;
-  width: 500px;
+  align-items: center;
+  width: 800px;
 }
 
-.about-desktop-nav ul {
-  display: flex;
-  justify-content: space-around;
-  width: 500px;
+.desktop-nav button {
+  padding: 10px;
+  color: #ec5242;
+  border: 4px solid #ec5242;
 }
 
 .topNav {
@@ -485,10 +484,6 @@ body {
 }
 
 .desktop-nav ul li a:hover {
-  color: #ec5242;
-}
-
-.about-desktop-nav ul li a:hover {
   color: #ec5242;
 }
 
