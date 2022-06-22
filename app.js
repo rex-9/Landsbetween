@@ -31,7 +31,7 @@ const speakers = [{
 {
   name: 'Renella of the Full Moon',
   title: 'Founder of Raya Lucaria Academy',
-  bio: 'Rennala is the last Carian Queen, imprisoned in the Grand Library. Still distraught over Radagon’s departure, she obsesses over rebirth, and her scholars will protect her at all costs. But beware, should you witness the true power of the Full Moon Queen.',
+  bio: 'Rennala is the last Carian Queen, imprisoned in the Grand Library. Still distraught over Radagon’s departure, she obsesses over rebirth, and her scholars will protect her at all costs.',
   img: 'assets/renella.png',
 },
 {
@@ -47,11 +47,14 @@ const container = document.getElementById('speakers-container');
 for (let i = 0; i < speakers.length; i += 1) {
   const card = document.createElement('div');
   card.classList.add('flex', 'items-center', 'teacher-card');
-  card.style.cssText = 'height: 300px;';
+  card.style.cssText = 'position: relative; height: 300px;';
+
+  const cardBg = document.createElement('div');
+  cardBg.style.cssText = "position: absolute; bottom: 150px; z-index: -1; background-image: url('./assets/img-bg.png'); background-repeat: no-repeat; height: 100px; width: 100%;";
 
   const image = document.createElement('img');
   image.src = speakers[i].img;
-  image.style.cssText = 'width: 150px;';
+  image.style.cssText = 'width: 150px; padding-left: 30px;';
 
   const div = document.createElement('div');
 
@@ -67,6 +70,7 @@ for (let i = 0; i < speakers.length; i += 1) {
   bio.innerHTML = speakers[i].bio;
   bio.classList.add('bio');
 
+  container.appendChild(card).appendChild(cardBg);
   container.appendChild(card).appendChild(image);
   container.appendChild(card).appendChild(div).appendChild(nameElement);
   container.appendChild(card).appendChild(div).appendChild(title);

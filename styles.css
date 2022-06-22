@@ -56,11 +56,18 @@ body {
   text-align: center;
 }
 
-.divider {
+.bottomline {
   border-top: 3px solid #ec5242;
   border-radius: 5px;
   width: 50px;
   margin: 20px 0 20px 0;
+}
+
+.divider {
+  border-top: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 0 20px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -74,6 +81,18 @@ body {
     background-color: white;
     width: 100%;
     box-shadow: 0 0 50px gray;
+  }
+
+  .about-desktop-nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 50px gray;
+  }
+
+  .about-desktop-nav a {
+    color: black;
   }
 
   .home {
@@ -103,10 +122,10 @@ body {
 
   .card {
     height: 260px;
-    margin-bottom: 20px;
     width: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
     background-color: hsla(0, 0%, 100%, 0.272);
-    border-radius: 25px;
     display: grid;
     grid-template-rows: 40% 50%;
     cursor: pointer;
@@ -134,6 +153,12 @@ body {
 
   .crd {
     width: 80%;
+  }
+
+  .about-crd {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 0 10% 1.5% 10%;
   }
 
   .about .bg {
@@ -187,9 +212,9 @@ body {
     justify-content: space-around;
     height: 130px;
     width: 350px;
+    padding: 10px;
     margin-bottom: 20px;
     background-color: hsla(0, 0%, 100%, 0.272);
-    border-radius: 25px;
     cursor: pointer;
   }
 
@@ -201,7 +226,6 @@ body {
   .card-info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
   }
 
   .teacher-card {
@@ -228,6 +252,12 @@ body {
 
   .about .contact {
     line-height: 30px;
+  }
+
+  .about-crd {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 0 3% 1.5% 3%;
   }
 }
 
@@ -287,6 +317,8 @@ body {
 }
 
 .card .content {
+  padding-left: 10px;
+  font-size: 14px;
   color: white;
 }
 
@@ -347,6 +379,12 @@ body {
 }
 
 .desktop-nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.about-desktop-nav ul {
   display: flex;
   justify-content: space-around;
   width: 500px;
@@ -450,4 +488,50 @@ body {
   color: #ec5242;
 }
 
+.about-desktop-nav ul li a:hover {
+  color: #ec5242;
+}
+
 /* menu-end */
+
+.crd-div {
+  display: flex;
+  justify-content: start;
+}
+
+.crd-div div {
+  padding-left: 10px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.logo img {
+  width: 60%;
+  margin: 25px 0 25px 0;
+}
+
+.past {
+  width: 90%;
+}
+
+.past img {
+  width: 40%;
+  margin: 25px 0 25px 0;
+}
+
+.raya {
+  position: relative;
+  height: 300px;
+  padding: 100px 0 0 25px;
+  color: white;
+}
+
+.raya img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 500px;
+}
