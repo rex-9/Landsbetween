@@ -347,7 +347,7 @@ body {
 }
 
 .about {
-  margin-top: 100px;
+  padding-top: 100px;
   background-image: url('./assets/white.jpg');
 }
 
@@ -369,6 +369,7 @@ body {
   font-weight: bold;
   margin-bottom: 100px;
 }
+
 
 /* menu */
 
@@ -516,17 +517,36 @@ body {
   margin: 25px 0 25px 0;
 }
 
-.raya {
-  position: relative;
-  height: 300px;
-  padding: 100px 0 0 25px;
-  color: white;
+@media screen and (min-width: 768px) {
+  .raya {
+    position: relative;
+    height: 300px;
+    padding: 100px 0 0 25px;
+    color: white;
+  }
+
+  .raya img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 500px;
+  }
 }
 
-.raya img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 500px;
+@media screen and (max-width: 768px) {
+  .raya {
+    position: relative;
+    height: 200px;
+    padding: 50px 0 0 25px;
+    color: white;
+  }
+
+  .raya img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 330px;
+  }
 }
