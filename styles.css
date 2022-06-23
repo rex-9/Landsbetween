@@ -1,6 +1,551 @@
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
   text-align: center;
+  color: #172b4d;
+  padding: 10px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f8f8;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.primary-color {
+  color: #ec5242;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bottomline {
+  border-top: 3px solid #ec5242;
+  border-radius: 5px;
+  width: 50px;
+  margin: 20px 0 20px 0;
+}
+
+.divider {
+  border-top: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop-nav {
+    position: fixed;
+    top: 40px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 50px gray;
+    z-index: 1;
+  }
+
+  .home {
+    background-image: url('./assets/white.jpg');
+    padding: 100px 0 100px 195px;
+  }
+
+  .home-text-1 {
+    font-size: 35px;
+    margin-top: 35px;
+  }
+
+  .home-text-3 {
+    margin-top: 25px;
+    padding: 25px;
+    border: 3px solid white;
+    background-color: #f7f7f7;
+    color: #555;
+    width: 600px;
+  }
+
+  .card-container {
+    width: 1200px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 260px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: hsla(0, 0%, 100%, 0.272);
+    display: grid;
+    grid-template-rows: 40% 50%;
+    cursor: pointer;
+  }
+
+  .card .icon {
+    height: 50px;
+    padding: 20px;
+  }
+
+  .teachers .bg {
+    width: 90%;
+  }
+
+  .teacher-card {
+    width: 45%;
+    height: 200px;
+    margin: 20px;
+  }
+
+  .partners {
+    background-color: #414246;
+    height: 220px;
+  }
+
+  .crd {
+    width: 80%;
+  }
+
+  .about-crd {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 0 10% 1.5% 10%;
+  }
+
+  .about .bg {
+    width: 70%;
+  }
+
+  .about .main {
+    padding: 50px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+
+  .about .contact {
+    line-height: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .home {
+    background-image: url('./assets/white.jpg');
+    padding: 100px 20px 100px 20px;
+  }
+
+  .home-text-1 {
+    font-size: 35px;
+  }
+
+  .home-text-3 {
+    margin-top: 25px;
+    padding: 25px;
+    border: 3px solid white;
+    background-color: #f7f7f7;
+    color: #555;
+  }
+
+  .card-container {
+    width: 350px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: hsla(0, 0%, 100%, 0.272);
+    cursor: pointer;
+  }
+
+  .card .icon {
+    height: 40px;
+    padding: 10px;
+  }
+
+  .card-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .teacher-card {
+    height: 200px;
+    margin: 20px;
+  }
+
+  .partners {
+    background-color: #414246;
+    height: 420px;
+  }
+
+  .about .bg {
+    width: 90%;
+  }
+
+  .about .main {
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+
+  .about .contact {
+    line-height: 30px;
+  }
+
+  .about-crd {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 0 3% 1.5% 3%;
+  }
+}
+
+.black-nav {
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.black-nav ul {
+  width: 400px;
+  margin-right: 100px;
+  color: white;
+}
+
+.home-text-2 {
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 70px;
+  margin-top: 25px;
+}
+
+.home-text-4 {
+  margin-top: 25px;
+  font-size: 35px;
+  font-weight: 800;
+  color: #555;
+}
+
+.home-text-5 {
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #555;
+}
+
+.program {
+  padding-top: 50px;
+  background-image: url('./assets/black.jpg');
+}
+
+.program header {
+  font-size: 30px;
+  color: white;
+}
+
+.card:hover {
+  border: 3px solid white;
+}
+
+.card .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .content {
+  padding-left: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+  color: white;
+  margin: 25px 0 50px 0;
+  cursor: pointer;
+}
+
+.teachers {
+  margin-top: 50px;
+}
+
+.teachers header {
+  font-size: 30px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.teachers .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 8px 20px;
+}
+
+.teachers .title {
+  font-style: italic;
+  margin: 0 0 8px 20px;
+}
+
+.teachers .bio {
+  margin: 0 0 8px 20px;
+}
+
+.about {
+  padding-top: 100px;
+  background-image: url('./assets/white.jpg');
+}
+
+.about nav {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+  width: 150px;
+}
+
+.about header {
+  font-weight: bold;
+  font-size: 55px;
+  margin: 80px 0 30px 0;
+}
+
+.about p {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+/* menu */
+
+.desktop-nav h1 a {
+  color: black;
+}
+
+.desktop-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+}
+
+.desktop-nav button {
+  padding: 10px;
+  color: #ec5242;
+  border: 4px solid #ec5242;
+}
+
+.topNav {
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.ham {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.ham:hover {
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.75;
+}
+
+.ham img {
+  height: 35px;
+}
+
+.menuX {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuX:hover {
+  padding: 0;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.75;
+}
+
+.sideNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  background: white;
+  width: 100%;
+  height: 100vh;
+
+  /* hide the menu above the screen by default */
+  transform: translateX(-100%);
+  transition: transform 0.2s ease;
+}
+
+.showNav {
+  transform: translateX(0);
+}
+
+.sideNav ul {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.sideNav ul li a {
+  display: block;
+  color: #3a4a42;
+  padding: 10px;
+  width: 0;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.desktop-nav ul li a {
+  color: rgb(45, 42, 42);
+  font-size: 15px;
+}
+
+.sideNav ul li a:hover,
+.sideNav ul li a:focus {
+  color: #ec5242;
+}
+
+.desktop-nav ul li a:hover {
+  color: #ec5242;
+}
+
+/* menu-end */
+
+.crd-div {
+  display: flex;
+  justify-content: start;
+}
+
+.crd-div div {
+  padding-left: 10px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.logo img {
+  width: 60%;
+  margin: 25px 0 25px 0;
+}
+
+.past {
+  width: 90%;
+}
+
+.past img {
+  width: 40%;
+  margin: 25px 0 25px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .raya {
+    position: relative;
+    height: 300px;
+    padding: 100px 0 0 25px;
+    color: white;
+  }
+
+  .raya img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .raya {
+    position: relative;
+    height: 200px;
+    padding: 50px 0 0 0;
+    color: white;
+  }
+
+  .raya img {
+    position: absolute;
+    top: 0;
+    left: -55px;
+    z-index: -1;
+    width: 330px;
+  }
 }
