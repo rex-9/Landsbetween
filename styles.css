@@ -370,7 +370,6 @@ body {
   margin-bottom: 100px;
 }
 
-
 /* menu */
 
 .desktop-nav h1 a {
@@ -538,14 +537,14 @@ body {
   .raya {
     position: relative;
     height: 200px;
-    padding: 50px 0 0 25px;
+    padding: 50px 0 0 0px;
     color: white;
   }
 
   .raya img {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -55px;
     z-index: -1;
     width: 330px;
   }
