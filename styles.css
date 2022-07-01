@@ -520,7 +520,8 @@ body {
   .raya {
     position: relative;
     height: 300px;
-    padding: 100px 0 0 25px;
+    width: 300px;
+    padding: 100px 0 0 100px;
     color: white;
   }
 
