@@ -6,6 +6,15 @@ The Call of the Lands Between
 - CSS
 - JS
 
+## Screenshots
+
+- **Home Page**
+
+![Home Page](./assets/home-page.png)
+
+- **About Page**
+
+![About Page](./assets/about-page.png)
 ## Live Demo
 
 [The Call of the Lands Between](https://htetnaing0814.github.io/call-of-the-lands-between/)
