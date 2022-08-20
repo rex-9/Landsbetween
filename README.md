@@ -17,7 +17,7 @@ The Call of the Lands Between
 ![About Page](./assets/about-page.png)
 ## Live Demo
 
-[The Call of the Lands Between](https://htetnaing0814.github.io/Landsbetween/)
+[The Call of the Lands Between](https://rex-9.github.io/Landsbetween/)
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ To get a local copy up and running:
 
 1. Clone this repository or download the zip folder:
 
-**``git clone https://github.com/HtetNaing0814/landsbetween.git``**
+**``git clone https://github.com/rex-9/landsbetween.git``**
 
 2. Navigate to the location of the folder in your machine:
 
@@ -35,15 +35,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-Here is the online version of [The Call of the Lands Between](https://github.com/HtetNaing0814/landsbetween/)
+Here is the online version of [The Call of the Lands Between](https://github.com/rex-9/landsbetween/)
 
 ## Author
-👤 - Github: [@HtetNaing0814](https://github.com/HtetNaing0814/landsbetween/)
+👤 - Github: [@rex-9](https://github.com/rex-9/landsbetween/)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check [issue page](https://github.com/HtetNaing0814/landsbetween/issues).
+Feel free to check [issue page](https://github.com/rex-9/landsbetween/issues).
 
 ## Show your support
 Give a ⭐️ if you like this project!
