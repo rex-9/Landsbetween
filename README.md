@@ -15,6 +15,7 @@ The Call of the Lands Between
 - **About Page**
 
 ![About Page](./assets/about-page.png)
+
 ## Live Demo
 
 [The Call of the Lands Between](https://rex-9.github.io/Landsbetween/)
@@ -39,6 +40,9 @@ Here is the online version of [The Call of the Lands Between](https://github.com
 
 ## Author
 👤 - Github: [@rex-9](https://github.com/rex-9/landsbetween/)
+👤 - Linkedin: [@rex-9](https://www.linkedin.com/in/rex9/)
+👤 - Angelist: [@rex-9](https://angel.co/u/rex9)
+👤 - Facebook: [@rex-9](https://www.facebook.com/htetnaing0814/)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
